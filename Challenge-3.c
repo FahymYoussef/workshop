@@ -11,7 +11,7 @@ int main() {
         printf("a + b = %d\n", a + b);
         printf("a - b = %d\n", a - b);
         printf("a * b = %d\n", a * b);
-        printf("a / b = %.2lf\n", (double)a / b);
+        printf("a / b = %.2f\n ", (float) a / b);
         printf("a %% b = %d\n", a % b);
     } else {
         printf("Erreur : Division par zéro n'est pas autorisée.\n");
